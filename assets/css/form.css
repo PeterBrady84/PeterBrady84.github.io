@@ -1,0 +1,86 @@
+.row-form
+{
+	clear: left;
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+
+.label
+{
+	display: block;
+	margin-bottom:0.1em;
+}
+
+.form-list
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.radio
+{
+	margin-left: 1px;
+	margin-right: 0.5em;
+}
+
+.input, .select, .textarea
+{
+	width: 100%; 
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #999999; 
+	border-radius: 0.3em;
+	padding: 5px;
+}
+
+.btn
+{
+	display: inline-block;
+	margin: 0;
+	padding: 0.7em 1.2em;
+	border: 0;
+	border-radius: 0.3em;
+	color: #ffffff;
+	background-color: #c10000;
+}
+
+.btn:focus
+{
+	background-color: black;
+}
+
+.btn:hover
+{
+	background-color: green;
+}
+
+.btn:active
+{
+	background-color: red;
+}
+
+@media (min-width:33em){
+.label{	
+	float: left;
+	width: 25%;
+	margin: 0 2% 0 0;
+	text-align: right;
+}
+
+.input, .select, .textarea{
+	float: left;
+	width: 70%;
+}
+
+.form-indent
+{
+	margin-left: 27%;
+	width: 70%;
+}
+
+.order-form
+{
+	max-width: 40em;
+}
+}
